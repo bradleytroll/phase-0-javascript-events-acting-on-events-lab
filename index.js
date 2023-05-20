@@ -1,3 +1,5 @@
+//Define dodger, pull all IDs of dodger. The function moveDodgerleft takes a parameter and removes the px from the posisitoin. Then, it moves the dodger element left by 10?
+
 const dodger = document.getElementById('dodger');
 function moveDodgerLeft() {
   const leftNumbers = dodger.style.left.replace("px", "");
